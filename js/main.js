@@ -3,6 +3,7 @@
  */
 
 
+viewport();
 
 var theGame = new Game();
 

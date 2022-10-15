@@ -39,16 +39,13 @@ body {
   padding: 35px;
 }
 
+/*
 @media only screen and (max-width: 830px), screen and (max-height: 740px) {
   .HeaderTextClass,
   .GameClass {
     display: none;
   }
-/*
-  .GameClass {
-    display: none;
-  }
-*/
+
   .WarningMessageClass {
     display: flex;
     justify-content: center;
@@ -65,3 +62,4 @@ body {
     font-size: large;
   }
 }
+*/
