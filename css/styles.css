@@ -1,0 +1,67 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.MainPageClass {
+  background-color: #191414;
+}
+
+.HeaderTextClass,
+.WarningTextClass {
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: xx-large;
+  color: aliceblue;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.GameClass {
+  border: 8px solid #900;
+  width: 800px;
+  height: 600px;
+}
+
+.WarningMessageClass {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #024802;
+  z-index: 100;
+  box-sizing: border-box;
+  padding: 35px;
+}
+
+@media only screen and (max-width: 830px), screen and (max-height: 740px) {
+  .HeaderTextClass,
+  .GameClass {
+    display: none;
+  }
+/*
+  .GameClass {
+    display: none;
+  }
+*/
+  .WarningMessageClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .WarningMessageClass {
+    padding: 22px;
+  }
+
+  .WarningTextClass {
+    font-size: large;
+  }
+}
