@@ -2,17 +2,18 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Memory Game Web</title>
+    <title>Memory Game</title>
     <link href="css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 <body class="MainPageClass">
 <div class="HeaderTextClass">MEMORY GAME</div>
 <br/>
 <div style="display: table; margin: 0 auto">
-    <div id="GameAreaID" class="GameClass"></div>
-</div>
-<div class="WarningMessageClass">
-    <div class="WarningTextClass">You need a minimum display area of 830x740 pixels to be able play this game</div>
+    <div id="GameAreaID" class="GameClass">
+        <div id="TigerLogoID" onclick="(function() { window.location.href = 'https://kire-showcase.onrender.com/'; })()">
+            <img src="images/WalkingTiger.svg" alt="Walking Tiger"/>
+        </div>
+    </div>
 </div>
 <br/>
 <script type="text/javascript" src="bin/pixi.js"></script>
